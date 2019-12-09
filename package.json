@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "main": "index.js",
+  "homepage":"https://Savadogo.github.io/SimulateIB",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "gh-pages": "^2.1.1",
     "headroom.js": "^0.10.3",
     "moment": "^2.24.0",
     "node-sass": "^4.13.0",
@@ -26,7 +28,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy":"yarn build",
+    "deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
