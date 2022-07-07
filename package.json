@@ -10,7 +10,7 @@
     "@testing-library/user-event": "^7.1.2",
     "gh-pages": "^2.1.1",
     "headroom.js": "^0.10.3",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "node-sass": "^4.13.0",
     "nouislider": "^14.1.0",
     "react": "^16.12.0",
